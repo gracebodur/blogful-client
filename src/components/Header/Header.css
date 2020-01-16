@@ -1,0 +1,40 @@
+.Header {
+    height: 40px;
+    display: flex;
+    align-items: normal;
+    justify-content: space-between;
+}
+
+.Header h1 {
+    margin: 0;
+    color: white;
+}
+  
+.Header h1 a {
+    text-decoration: none;
+}
+  
+.Header a {
+    color: white;
+}
+  
+.Header__register, 
+.Header_login, 
+.Header_logout {
+    display: flex;
+    flex-direction: column;
+}
+  
+   
+@media screen and (min-width: 450px) {
+    .Header {
+      align-items: baseline;
+    }
+    .Header h1 {
+      font-size: 22pt;
+    }
+  
+    .Header__register {
+      flex-direction: row;
+    }
+  }
